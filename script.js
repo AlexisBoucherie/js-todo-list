@@ -69,7 +69,7 @@ function deleteCheck(e) {
     //checker la todo
     if (item.classList[0] === "complete-btn") {
         const todo = item.parentElement;
-        //on change la classe de l'élément parent
+        //on change la classe de l'élément parent à chaque fois qu'on clique (avec toggle, comme ON/OFF)
         todo.classList.toggle("completed");
     }
 }
